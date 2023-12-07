@@ -1,0 +1,53 @@
+.profileForm {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.invalidInput {
+    border: 1px solid red;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+}
+
+.sucsessMessage {
+    color: green;
+    margin-top: 5px;
+}
+
+.saveButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.saveButton {
+    margin-top: 10px;
+    background-color: #007bff;
+}

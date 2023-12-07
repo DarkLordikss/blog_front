@@ -1,0 +1,26 @@
+.commentInput {
+    margin-top: 20px;
+}
+
+.commentInput textarea {
+    width: 70vw;
+    height: 10vh;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.commentInput button {
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.commentInput button:hover {
+    background-color: #357ae8;
+}

@@ -1,0 +1,4 @@
+.groupList {
+    display: flex;
+    flex-direction: column;
+}

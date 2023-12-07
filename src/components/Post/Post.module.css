@@ -1,0 +1,116 @@
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postInfo {
+    flex: 1;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.createTime {
+    color: #555;
+}
+
+.community {
+    color: #555;
+    padding-top: 2vh;
+}
+
+.postImage {
+    max-width: 70vw;
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.postImage img {
+    width: 100%;
+    height: auto;
+}
+
+.postContent {
+    margin-top: 10px;
+}
+
+.postTitle {
+    font-weight: bold;
+    font-size: 2em;
+    word-wrap: break-word;
+}
+
+.postLink {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.postLink:hover {
+    color: #e74c3c;
+}
+
+.tagsContainer {
+    margin-top: 5px;
+}
+
+.tag {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.postDescription {
+    margin-top: 10px;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.buttonPost {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.readingTime {
+    color: #555;
+    padding-bottom: 3vh;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.postContainer {
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 70vw;
+}
+
+.authorLink {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.authorLink:hover {
+    color: #e74c3c;
+}

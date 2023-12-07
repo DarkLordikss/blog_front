@@ -1,0 +1,48 @@
+.groupCard {
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.groupLink {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.groupLink:hover {
+    color: #e74c3c;
+}
+
+.subscribeButton {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 10vw;
+    cursor: pointer;
+}
+
+.unsubscribeButton {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 10vw;
+    cursor: pointer;
+}
+
+.subscribeButton:hover {
+    background-color: #357ae8;
+}
+
+.unsubscribeButton:hover {
+    background-color: #980000;
+}

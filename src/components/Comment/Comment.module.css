@@ -1,0 +1,97 @@
+/* Comment.module.css */
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70vw;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.commentHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.commentAuthor {
+    font-weight: bold;
+}
+
+.commentDate {
+    color: #555;
+}
+
+.commentContent {
+    margin-bottom: 10px;
+}
+
+.subComments {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.subComments .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 60vw;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.showSubComments,
+.replyButton {
+    color: #4285f4;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.showSubComments:hover,
+.replyButton:hover {
+    text-decoration: underline;
+}
+
+.replyInputContainer {
+    display: flex; /* Добавлено */
+    margin-top: 10px;
+}
+
+.replyInput {
+    flex: 1; /* Изменено */
+    padding: 10px;
+    margin-right: 10px; /* Добавлено отступ справа */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.replySubmitButton {
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.replySubmitButton:hover {
+    background-color: #357ae8;
+}
+
+.cursorPointer {
+    cursor: pointer;
+    width: 2%;
+}
+
+.authorLink {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.authorLink:hover {
+    color: #e74c3c;
+}

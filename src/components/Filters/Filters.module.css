@@ -1,0 +1,50 @@
+.filterContainer {
+    margin: 0 auto 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 71vw;
+}
+
+.filterInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.filterSelect {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.tagContainer {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.tagLabel {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tagList {
+    max-height: 100px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.select__control {
+    padding-bottom: 10px;
+}

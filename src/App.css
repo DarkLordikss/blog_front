@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.screen {
+    min-height: 80vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}

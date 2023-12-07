@@ -1,0 +1,4 @@
+.authorBlock {
+    display: flex;
+    flex-direction: column;
+}

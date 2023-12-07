@@ -1,0 +1,71 @@
+.postForm {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.labelPost {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputPost,
+.textareaPost,
+.selectPost {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.textareaPost {
+    height: 40vh;
+}
+
+.buttonPost {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttonPost:hover {
+    background-color: #45a049;
+}
+
+.postTagContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postTagLabel {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.postTagLabel input {
+    margin-right: 5px;
+}
+
+.errorPost {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.buttonRed {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 5vh;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
